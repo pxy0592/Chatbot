@@ -1,8 +1,8 @@
 ---
 applications:
-- name: webchatbot
+- name: xpan-car-abc
   path: target/Chatbot-0.0.1.war
   buildpack: liberty-for-java
   env:
-    CONVERSATION_WORKSPACE_ID: 2e38d5ef-7506-4e38-804e-e83f3cbe6926
-    CAR_SERVICE_HOST: webchatbotcar.mybluemix.net
+    CONVERSATION_WORKSPACE_ID: 06f5b053-e4aa-437e-9cee-4a8c7395b175
+    CAR_SERVICE_HOST: xpan-car.mybluemix.net
